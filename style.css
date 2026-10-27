@@ -1,0 +1,33 @@
+nav {
+    padding: 1em;
+    align-items: center;
+}
+
+a {
+    background-color: white;
+    padding: 1em;
+    border-radius: 100px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 1s;
+    color: black;
+}
+
+a:hover {
+    background-color: gray;
+    transition: 1s;
+    color: white;
+}
+
+main {
+    background-color: rgba(7, 7, 7, 0.5);
+    padding-right: 2vw;
+}
+
+body {
+    width: 20%;
+    font-size: 1vw;
+    text-align: end;
+    color: white;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0)), url('./boek.jpg');
+}
